@@ -1,0 +1,58 @@
+PS C:\Users\Abhishek Goyal\Documents\IITD\ML\Tutorial-set2> & C:/anaconda/python.exe "c:/Users/Abhishek Goyal/Documents/IITD/ML/Tutorial-set2/hlwrl2.py"
+2023-10-08 12:19:34.060070: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/50
+65/65 [==============================] - 51s 767ms/step - loss: 1868.9955 - hinge: 1868.9955 - val_loss: 58.2451 - val_hinge: 58.2451
+Epoch 2/50
+65/65 [==============================] - 48s 738ms/step - loss: 94.7016 - hinge: 94.7016 - val_loss: 91.0160 - val_hinge: 91.0160
+Epoch 3/50
+65/65 [==============================] - 51s 790ms/step - loss: 62.8354 - hinge: 62.8354 - val_loss: 162.3188 - val_hinge: 162.3188
+Epoch 4/50
+65/65 [==============================] - 51s 785ms/step - loss: 157.4093 - hinge: 157.4093 - val_loss: 43.5163 - val_hinge: 43.5163
+Epoch 5/50
+65/65 [==============================] - 52s 793ms/step - loss: 50.4526 - hinge: 50.4526 - val_loss: 118.7559 - val_hinge: 118.7559
+Epoch 6/50
+65/65 [==============================] - 52s 798ms/step - loss: 46.6302 - hinge: 46.6302 - val_loss: 215.0216 - val_hinge: 215.0216
+Epoch 7/50
+65/65 [==============================] - 50s 770ms/step - loss: 28.0059 - hinge: 28.0059 - val_loss: 44.0073 - val_hinge: 44.0073
+Epoch 8/50
+65/65 [==============================] - 51s 787ms/step - loss: 19.2343 - hinge: 19.2343 - val_loss: 91.1306 - val_hinge: 91.1306
+Epoch 9/50
+65/65 [==============================] - 51s 788ms/step - loss: 18.5406 - hinge: 18.5406 - val_loss: 21.1505 - val_hinge: 21.1505
+Epoch 10/50
+65/65 [==============================] - 51s 785ms/step - loss: 17.0552 - hinge: 17.0552 - val_loss: 82.6140 - val_hinge: 82.6140
+Epoch 11/50
+65/65 [==============================] - 52s 795ms/step - loss: 23.7757 - hinge: 23.7757 - val_loss: 15.2334 - val_hinge: 15.2334
+Epoch 12/50
+65/65 [==============================] - 51s 788ms/step - loss: 28.7157 - hinge: 28.7157 - val_loss: 19.6454 - val_hinge: 19.6454
+Epoch 13/50
+65/65 [==============================] - 51s 784ms/step - loss: 31.6506 - hinge: 31.6506 - val_loss: 25.5704 - val_hinge: 25.5704
+Epoch 14/50
+65/65 [==============================] - 51s 786ms/step - loss: 16.1759 - hinge: 16.1759 - val_loss: 14.8923 - val_hinge: 14.8923
+Epoch 15/50
+65/65 [==============================] - 50s 768ms/step - loss: 8.4725 - hinge: 8.4725 - val_loss: 14.5736 - val_hinge: 14.5736
+Epoch 16/50
+65/65 [==============================] - 49s 758ms/step - loss: 5.1407 - hinge: 5.1407 - val_loss: 11.5672 - val_hinge: 11.5672
+Epoch 17/50
+65/65 [==============================] - 47s 718ms/step - loss: 2.2735 - hinge: 2.2735 - val_loss: 20.5554 - val_hinge: 20.5554
+Epoch 18/50
+65/65 [==============================] - 51s 785ms/step - loss: 3.5947 - hinge: 3.5947 - val_loss: 11.2790 - val_hinge: 11.2790
+Epoch 19/50
+65/65 [==============================] - 51s 789ms/step - loss: 4.8425 - hinge: 4.8425 - val_loss: 68.2401 - val_hinge: 68.2401
+Epoch 20/50
+65/65 [==============================] - 54s 832ms/step - loss: 3.6938 - hinge: 3.6938 - val_loss: 10.6526 - val_hinge: 10.6526
+Epoch 21/50
+65/65 [==============================] - 53s 817ms/step - loss: 16.2703 - hinge: 16.2703 - val_loss: 15.6192 - val_hinge: 15.6192
+Epoch 22/50
+65/65 [==============================] - 49s 760ms/step - loss: 23.8264 - hinge: 23.8264 - val_loss: 15.3927 - val_hinge: 15.3927
+Epoch 23/50
+65/65 [==============================] - 54s 832ms/step - loss: 5.6839 - hinge: 5.6839 - val_loss: 16.1582 - val_hinge: 16.1582
+Epoch 24/50
+65/65 [==============================] - 54s 830ms/step - loss: 29.3707 - hinge: 29.3707 - val_loss: 19.7480 - val_hinge: 19.7480
+Epoch 25/50
+65/65 [==============================] - 50s 768ms/step - loss: 33.2162 - hinge: 33.2162 - val_loss: 24.6828 - val_hinge: 24.6828
+9/9 [==============================] - 0s 45ms/step - loss: 13.6657 - hinge: 13.6657
+Test Loss: 13.665708541870117, Test Accuracy: 13.665708541870117
+
+
+I have used early stopping , at last 2 epochs , you can see that validation loss started increasing , telling that it has started to overfit now .This can be avoided with  regularization.

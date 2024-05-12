@@ -1,0 +1,52 @@
+PS C:\Users\Abhishek Goyal\Documents\IITD\ML\Tutorial-set2> & C:/anaconda/python.exe "c:/Users/Abhishek Goyal/Documents/IITD/ML/Tutorial-set2/hlwrl2.py"
+2023-10-08 13:17:55.819109: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/50
+65/65 [==============================] - 57s 857ms/step - loss: -6385813.5000 - accuracy: 0.0043 - val_loss: -55105736.0000 - val_accuracy: 0.0115
+Epoch 2/50
+65/65 [==============================] - 64s 991ms/step - loss: -676910848.0000 - accuracy: 0.0053 - val_loss: -2708808192.0000 - val_accuracy: 0.0192
+Epoch 3/50
+15/65 [=====>........................] - ETA: 47s - loss: -3556938496.0000 - accuracy: 0.0083forrtl: error (200): program aborting due to control-C event
+Image              PC                Routine            Line        Source
+libifcoremd.dll    00007FFAD5E8DF54  Unknown               Unknown  Unknown
+16/65 [======>.......................] - ETA: 47s - loss: -3428226304.0000 - accuracy: 0.0078E.dll     00007FFB26C46C67  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFB275C257D  Unknown               Unknown  Unknown
+ntdll.dll          00007FFB297AAA68  Unknown               Unknown  Unknown
+PS C:\Users\Abhishek Goyal\Documents\IITD\ML\Tutorial-set2> & C:/anaconda/python.exe "c:/Users/Abhishek Goyal/Documents/IITD/ML/Tutorial-set2/hlwrl2.py"
+2023-10-08 13:20:38.673544: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/50
+65/65 [==============================] - 62s 940ms/step - loss: 1073.9341 - accuracy: 0.6986 - val_loss: 433.8620 - val_accuracy: 0.6500
+Epoch 2/50
+65/65 [==============================] - 59s 909ms/step - loss: 156.9690 - accuracy: 0.8596 - val_loss: 62.1573 - val_accuracy: 0.9115
+Epoch 3/50
+65/65 [==============================] - 62s 960ms/step - loss: 75.8890 - accuracy: 0.9000 - val_loss: 97.6269 - val_accuracy: 0.9077
+Epoch 4/50
+65/65 [==============================] - 66s 1s/step - loss: 51.1972 - accuracy: 0.9375 - val_loss: 66.8371 - val_accuracy: 0.9115
+Epoch 5/50
+65/65 [==============================] - 70s 1s/step - loss: 69.1942 - accuracy: 0.9038 - val_loss: 248.3944 - val_accuracy: 0.7038  
+Epoch 6/50
+65/65 [==============================] - 69s 1s/step - loss: 83.7667 - accuracy: 0.8966 - val_loss: 26.1406 - val_accuracy: 0.9615   
+Epoch 7/50
+65/65 [==============================] - 60s 919ms/step - loss: 50.7833 - accuracy: 0.9245 - val_loss: 26.2147 - val_accuracy: 0.9500
+Epoch 8/50
+65/65 [==============================] - 72s 1s/step - loss: 26.6118 - accuracy: 0.9572 - val_loss: 153.1727 - val_accuracy: 0.7231
+Epoch 9/50
+65/65 [==============================] - 68s 1s/step - loss: 42.8079 - accuracy: 0.9187 - val_loss: 66.3008 - val_accuracy: 0.8846   
+Epoch 10/50
+65/65 [==============================] - 73s 1s/step - loss: 33.9252 - accuracy: 0.9399 - val_loss: 23.4836 - val_accuracy: 0.9423   
+Epoch 11/50
+65/65 [==============================] - 74s 1s/step - loss: 18.7531 - accuracy: 0.9678 - val_loss: 17.3941 - val_accuracy: 0.9538   
+Epoch 12/50
+65/65 [==============================] - 73s 1s/step - loss: 18.2327 - accuracy: 0.9639 - val_loss: 33.5688 - val_accuracy: 0.9346   
+Epoch 13/50
+65/65 [==============================] - 74s 1s/step - loss: 20.0575 - accuracy: 0.9644 - val_loss: 24.0198 - val_accuracy: 0.8962   
+Epoch 14/50
+65/65 [==============================] - 65s 1s/step - loss: 22.2776 - accuracy: 0.9428 - val_loss: 18.4616 - val_accuracy: 0.9500   
+Epoch 15/50
+65/65 [==============================] - 64s 985ms/step - loss: 14.9480 - accuracy: 0.9692 - val_loss: 17.7296 - val_accuracy: 0.9615Epoch 16/50
+65/65 [==============================] - ETA: 0s - loss: 16.3980 - accuracy: 0.9644Restoring model weights from the end of the best epoch: 11.
+65/65 [==============================] - 62s 954ms/step - loss: 16.3980 - accuracy: 0.9644 - val_loss: 20.8052 - val_accuracy: 0.9500Epoch 16: early stopping
+Epoch 16: early stopping
+9/9 [==============================] - 1s 70ms/step - loss: 32.5187 - accuracy: 0.9231
+Test Loss: 32.51869201660156, Test Accuracy: 0.9230769276618958
